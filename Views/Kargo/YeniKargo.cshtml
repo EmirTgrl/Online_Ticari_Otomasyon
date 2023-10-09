@@ -1,0 +1,27 @@
+﻿@model Online_Ticari_Otomasyon.Models.Siniflar.KargoDetay
+@{
+    ViewBag.Title = "YeniKargo";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<br />
+<h2 style="color:blue">Yeni Kargo Giriş Sayfası</h2>
+<br />
+<form class="form-group" method="post">
+    <b>@Html.Label("Takip Kodu")</b>
+    <input type="text" name="TakipKodu" value="@ViewBag.takipkod" class="form-control" readonly />
+    <br />
+    <b>@Html.Label("Personel")</b>
+    @Html.DropDownListFor(x => x.Personel, (List<SelectListItem>)ViewBag.dgr1, new { @class = "form-control" })
+    <br />
+    <b>@Html.Label("Kargo Alıcı")</b>
+    @Html.TextBoxFor(x => x.Alici, new { @class = "form-control" })
+    <br />
+    <b>@Html.Label("Kargo Tarihi")</b>
+    <input type="date" name="Tarih" class="form-control" />
+    <br />
+    <b>@Html.Label("Kargo Açıklaması")</b>
+    @Html.TextAreaFor(x => x.Aciklama, new { @class = "form-control" })
+    <br />
+    <button class="btn btn-info">Kaydet</button>
+</form>
