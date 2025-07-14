@@ -31,19 +31,7 @@ Firmalar, cari kayıtlarını, personel bilgilerini, ürün envanterini, departm
 - 🌐 ASP.NET (MVC / Core)
 - 🗃️ Microsoft SQL Server (MSSQL)
 - 📁 Entity Framework
----
-
-## 🚀 Kurulum Adımları
-
-1. Repositori'yi klonlayın:  
-   `git clone https://github.com/kullaniciadi/proje-adi.git`
-
-2. Visual Studio ile projeyi açın.
-
-3. Veritabanı bağlantı cümlesini (`Web.config` veya `appsettings.json`) kendi ortamınıza göre yapılandırın.
-
-4. Projeyi çalıştırın (F5 veya Ctrl+F5).
-
+  
 ---
 
 # 📊 Company Management System
@@ -78,16 +66,3 @@ A web-based management platform where companies can manage their clients, person
 - 🌐 ASP.NET (MVC / Core)
 - 🗃️ Microsoft SQL Server (MSSQL)
 - 📁 Entity Framework
-
----
-
-## 🚀 Installation Steps
-
-1. Clone the repository:  
-   `git clone https://github.com/yourusername/project-name.git`
-
-2. Open the project in Visual Studio.
-
-3. Configure your database connection string in `Web.config` or `appsettings.json`.
-
-4. Run the project (F5 or Ctrl+F5).
